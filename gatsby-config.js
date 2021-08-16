@@ -1,3 +1,12 @@
+/* eslint-disable @typescript-eslint/no-var-requires, no-console */
+const activeEnv = process.env.APP_ENV || process.env.NODE_ENV || 'development';
+
+require('dotenv').config({
+  path: `.env.${activeEnv}`,
+});
+
+console.log(`NOTE: Using environment config: '${activeEnv}'`);
+
 module.exports = {
   siteMetadata: {
     siteUrl: process.env.GATSBY_SITE_URL,
