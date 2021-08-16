@@ -9,20 +9,14 @@ console.log(`NOTE: Using environment config: '${activeEnv}'`);
 
 module.exports = {
   siteMetadata: {
-    siteUrl: process.env.GATSBY_SITE_URL,
     title: 'react-prime-gatsby',
-    titleTemplate: '%s - Nowatch Website',
+    titleTemplate: '%s - react-prime-gatsby',
+    description: 'Gatsby boilerplate',
+    image: '/src/assets/images/icon.png',
+    siteUrl: process.env.GATSBY_SITE_URL,
+    twitterUsername: '@labela',
   },
   plugins: [
-    // {
-    //   resolve: 'gatsby-source-contentful',
-    //   options: {
-    //     accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-    //     spaceId: process.env.CONTENTFUL_SPACE_ID,
-    //     host: process.env.CONTENTFUL_HOST,
-    //     environment: process.env.CONTENTFUL_ENVIRONMENT,
-    //   },
-    // },
     // {
     //   resolve: 'gatsby-plugin-google-analytics',
     //   options: {
@@ -55,19 +49,19 @@ module.exports = {
       },
       __key: 'images',
     },
-    // {
-    //   resolve: 'gatsby-plugin-typegen',
-    //   options: {
-    //     outputPath: 'src/__generated__/gatsby-types.d.ts',
-    //     emitSchema: {
-    //       'src/__generated__/gatsby-schema.graphql': true,
-    //       'src/__generated__/gatsby-introspection.json': true,
-    //     },
-    //     emitPluginDocuments: {
-    //       'src/__generated__/gatsby-plugin-documents.graphql': true,
-    //     },
-    //   },
-    // },
+    {
+      resolve: 'gatsby-plugin-typegen',
+      options: {
+        outputPath: 'src/__generated__/gatsby-types.d.ts',
+        emitSchema: {
+          'src/__generated__/gatsby-schema.graphql': true,
+          'src/__generated__/gatsby-introspection.json': true,
+        },
+        emitPluginDocuments: {
+          'src/__generated__/gatsby-plugin-documents.graphql': true,
+        },
+      },
+    },
     {
       resolve: 'gatsby-plugin-module-resolver',
       options: {
