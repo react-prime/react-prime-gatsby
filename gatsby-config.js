@@ -42,7 +42,7 @@ module.exports = {
         short_name: 'gatsby',
         start_url: '/',
         background_color: '#fff',
-        theme_color: '#000',
+        theme_color: '#e7ff00',
         display: 'standalone',
         icon: 'src/assets/images/icon.png',
       },

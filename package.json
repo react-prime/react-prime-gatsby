@@ -20,6 +20,7 @@
     "styled-components": "5.3.0"
   },
   "devDependencies": {
+    "@types/styled-components": "5.1.12",
     "babel-plugin-styled-components": "1.13.2",
     "eslint-plugin-graphql": "4.0.0",
     "gatsby": "^3.11.1",
