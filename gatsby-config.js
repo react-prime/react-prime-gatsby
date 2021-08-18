@@ -12,7 +12,7 @@ module.exports = {
     title: 'react-prime-gatsby',
     titleTemplate: '%s - react-prime-gatsby',
     description: 'Gatsby boilerplate',
-    image: '/src/assets/images/icon.png',
+    image: 'src/assets/images/favicon.png',
     siteUrl: process.env.GATSBY_SITE_URL,
     twitterUsername: '@labela',
   },
@@ -38,7 +38,7 @@ module.exports = {
         background_color: '#fff',
         theme_color: '#e7ff00',
         display: 'standalone',
-        icon: 'src/assets/images/icon.png',
+        icon: 'src/assets/images/favicon.png',
       },
     },
     {
