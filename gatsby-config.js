@@ -17,12 +17,6 @@ module.exports = {
     twitterUsername: '@labela',
   },
   plugins: [
-    // {
-    //   resolve: 'gatsby-plugin-google-analytics',
-    //   options: {
-    //     trackingId: process.env.GA_TRACKING_ID,
-    //   },
-    // },
     'gatsby-plugin-styled-components',
     'gatsby-plugin-image',
     'gatsby-plugin-sharp',
