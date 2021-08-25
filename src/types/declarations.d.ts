@@ -1,8 +1,3 @@
-// extend window object
-interface Window {
-  __REDUX_DEVTOOLS_EXTENSION__: () => () => void;
-}
-
 // We have to declare how files other than .ts(x) or .js(x) are handled by our codebase because
 // Typescript does not know we are handling these files with Webpack.
 declare module '*.json' {
