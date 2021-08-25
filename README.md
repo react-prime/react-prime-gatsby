@@ -42,20 +42,6 @@ View GraphiQL, an in-browser IDE, to explore your site's data and schema at [htt
 
 2. Install the [EditorConfig](https://editorconfig.org/) plugin for your editor.
 
-## 🎯 Deployment and environments
-
-The project uses Netlify to make a new build and deploy it to the preview or the production environment. 
-
-The preview environment is configured so it only deploys on a push to master or a manual trigger from Contentful. 
-
-* https://nowatch-website-preview.netlify.app/
-
-The production environment triggers on commits to every branch, these branches are accessible under the following URLs:
-
-* https://nowatch-website.netlify.app/
-* https://develop--nowatch-website.netlify.app/
-* https://acceptance--nowatch-website.netlify.app/
-
 ## 📑 Making a build with non-production data
 
 This project uses [dotenv](https://www.npmjs.com/package/dotenv) to load environment variables from a .env file into process.env. By default Gatsby supports 2 environments:
