@@ -83,7 +83,7 @@ Allows us to use the same folder structure as in our React Prime projects.
 
   Only automatically adds the generated types for static queries, you have to manually select the right type for page queries. Eg: 
 
-    ```
+    ```ts
     type IndexPageProps = PageProps & {
       data: GatsbyTypes.PageTitleQuery
     };
