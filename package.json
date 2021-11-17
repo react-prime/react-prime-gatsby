@@ -12,7 +12,8 @@
     "server": "gatsby serve",
     "build": "gatsby clean && gatsby build",
     "clean": "gatsby clean",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint --ext .js --ext .jsx --ext .ts --ext .tsx src/"
   },
   "dependencies": {
     "react": "^17.0.2",
