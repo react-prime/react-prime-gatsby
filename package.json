@@ -8,9 +8,9 @@
     "gatsby"
   ],
   "scripts": {
-    "start": "gatsby clean && gatsby develop -p 3000",
+    "start": "gatsby develop -p 3000",
     "server": "gatsby serve",
-    "build": "gatsby clean && gatsby build",
+    "build": "gatsby build",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit",
     "lint": "eslint --ext .js --ext .jsx --ext .ts --ext .tsx src/"
