@@ -8,6 +8,8 @@
 [![devDependencies Status](https://david-dm.org/react-prime/react-prime-gatsby/dev-status.svg)](https://david-dm.org/react-prime/react-prime-gatsby?type=dev)
 [![GitHub release](https://img.shields.io/github/release/react-prime/react-prime-gatsby.svg)](https://github.com/react-prime/react-prime-gatsby)
 
+⚠️**This repository has been moved to the [Prime Monorepo](https://github.com/LabelA/prime-monorepo/tree/main/boilerplates/react-web)**.
+
 ---
 
 ## 🚀 Quick start
